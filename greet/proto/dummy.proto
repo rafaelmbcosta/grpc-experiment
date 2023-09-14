@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package greet;
+
+// it allows to generate the code in the correct package
+option go_package = "github.com/Clement-Jean/grpc-go-course/greet/proto";
+
+message Dummy {
+    uint32 id = 1;
+}
+
+service DummyService {
+
+}
